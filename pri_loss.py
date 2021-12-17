@@ -2,7 +2,7 @@ import torch.nn as nn
 import torch
 
 class pri_Loss(nn.Module):
-    """Common feature loss.
+    """Private feature loss.
 
     Args:
         x (n, m): feature matrix of images.
